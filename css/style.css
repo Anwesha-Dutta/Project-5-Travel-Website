@@ -46,6 +46,15 @@ header {
 
 }
 
+.container .flex .leftone {
+    color: white;
+}
+
+.container .flex .lefttwo {
+    color: white;
+    padding-left: 20px;
+}
+
 .container .left {
     width: 70%;
     padding-top: 15px;
@@ -56,10 +65,12 @@ header {
 
 .container .flex .left i {
     margin-right: 10px;
+    color: white;
 }
 
 .container .flex .left .lefttwo {
     margin-right: 20px;
+    color: white;
 }
 
 .container .right {
@@ -155,6 +166,7 @@ header {
 .secondpart .container .againflex {
     display: flex;
     padding-top: 35px;
+    padding-bottom: 35px;
 
 }
 
@@ -247,7 +259,7 @@ header {
 
 
 .banner .img img {
-    margin-top: 25px;
+
     width: 100%;
     height: 500px;
     object-fit: cover;
@@ -266,25 +278,62 @@ header {
 
 .banner .owl-carousel.owl-theme .item h1 {
     font-size: 60px;
+    color: white;
 }
 
 .banner .owl-carousel.owl-theme .item p {
     font-size: 19px;
+    color: white;
+}
+
+/* .owl-carousel.slider .item .container .animate__animated {
+    animation: fadeInUp;
+    animation-duration: 4s;
+    animation-delay: 2s;
+} */
+
+/* .owl-carousel.slider .item .container .animate__animated {
+    animation: fadeOutUp;
+    animation-duration: 4s;
+    animation-delay: 2s;
+} */
+
+.owl-carousel .owl-nav button span {
+    font-size: 80px;
+    color: white;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    display: none;
 }
 
 .thirdpart .container h1 {
     color: #303030;
     text-align: center;
     font-size: 40px;
-    margin-top: 70px;
-    margin-bottom: 27px;
+    padding-top: 50px;
+    padding-bottom: 27px;
 }
 
 .thirdpart .container .another {
     color: #999;
     text-align: center;
     font-size: 18px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 .thirdpart .container .owl-carousel.owl-theme .item img {
@@ -362,30 +411,48 @@ header {
     color: #999;
     font-size: 18px;
     line-height: 33px;
+    padding-bottom: 50px;
 }
 
 .fourthpart .container .leftone {
-    width: 60%;
+    width: 67%;
 
 }
 
 .fourthpart .container .rightone {
-    width: 40%;
-    margin-left: 120px;
+    width: 33%;
+    padding: 0 15px;
+}
+
+.fourthpart .container .rightone .content {
     border: 1px solid rgba(153, 153, 153, 0.5);
     padding: 18px 50px;
 }
 
 .fourthpart .container .leftone .imgflex {
     display: flex;
+    margin: 0 -15px;
+    padding-right: 15px;
 }
 
 .fourthpart .container .leftone .imgflex .image img {
     height: 280px;
-    width: 380px;
+    width: 100%;
     padding-left: 0;
-    padding-right: 30px;
     object-fit: cover;
+}
+
+.fourthpart .container .leftone .imgflex .col {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50%;
+}
+
+.fourthpart .container .leftone .imgflex .image {
+
+    position: relative;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
 }
 
 .fourthpart .container .flexleftright {
@@ -394,7 +461,76 @@ header {
 
 }
 
+.fourthpart .container .leftone .emoji {
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
 
+}
+
+.fourthpart .container .leftone .rotate {
+    color: #E83F53;
+    padding: 3px 0;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    right: -133px;
+    transform: rotate(45deg);
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+
+.fourthpart .container .leftone .superb {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    width: calc(100% - 40px);
+    padding: 18px 20px;
+    transform: translateY(173px);
+    transition: all 0.5s;
+}
+
+.fourthpart .container .leftone .image:hover .superb {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
+
+
+.fourthpart .container .leftone .headingflex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.fourthpart .container .leftone .superb p {
+    font-size: 15px;
+    color: white;
+}
+
+.fourthpart .container .leftone .superb .paraflex .linethrough {
+    text-decoration: line-through;
+}
+
+.fourthpart .container .leftone .superb .paraflex p {
+    padding-bottom: 0;
+}
+
+.fourthpart .container .leftone .superb .headingflex h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.fourthpart .container .leftone .superb .paraflex {
+    display: flex;
+    justify-content: space-between;
+}
 
 .fourthpart {
 
@@ -411,24 +547,26 @@ header {
 .fourthpart .container .rightone h1 {
     font-size: 30px;
     color: #303030;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 25px;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #ebebeb;
+
 }
 
-.fourthpart .container .rightone h2 {
+.fourthpart .container .rightone .owl-carousel.slider4 .item h2 {
     color: #303030;
     font-size: 25px;
     padding-top: 30px;
+
 }
 
-.fourthpart .container .rightone p {
+.fourthpart .container .rightone .owl-carousel.slider4 .item p {
     color: #999;
     padding-top: 50px;
     margin-bottom: 20px;
 }
 
-.fourthpart .container .rightone img {
+.fourthpart .container .rightone .owl-carousel.slider4 .item img {
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -437,25 +575,31 @@ header {
 
 }
 
-.fourthpart .container .rightone span i {
+.fourthpart .container .rightone .owl-carousel.slider4 .item i {
     color: #E83F53;
     padding-top: 20px;
 }
 
-.fourthpart .rightone .divflex {
+.fourthpart .rightone .owl-carousel.slider4 .item .divflex {
     display: flex;
     /* align-items: center;
     justify-content: center; */
+    align-items: center;
 
 }
 
-.fourthpart .container .rightone .post {
-    color: #999;
+.fourthpart .container .rightone .owl-carousel.slider4 .item .post {
+    color: #777777;
     text-align: center;
     padding-top: 0;
     padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+
 
 }
+
+
 
 .fifthpart h1 {
     font-size: 40px;
@@ -824,7 +968,7 @@ footer .upperpart {
     padding-top: 40px;
     padding-bottom: 40px;
 
-    background-color: #BDBDBD;
+    background-color: #383838;
 
     margin-top: 0 auto;
 
@@ -868,7 +1012,7 @@ footer .middlepart .container li {
     font-size: 20px;
     font-weight: bold;
     width: 25%;
-    padding-right: 60px;
+
 
 }
 
