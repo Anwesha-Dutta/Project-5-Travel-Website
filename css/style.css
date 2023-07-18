@@ -97,6 +97,7 @@ header {
 .container .flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .container .right .liflex .ul {
@@ -257,13 +258,19 @@ header {
     padding-bottom: 20px;
 }
 
+.banner {
+    position: relative;
+}
 
 .banner .img img {
 
     width: 100%;
     height: 500px;
     object-fit: cover;
+
 }
+
+
 
 .banner .owl-carousel.owl-theme .item .text {
 
@@ -487,6 +494,7 @@ header {
 
 .fourthpart .container .leftone .superb {
     position: absolute;
+    height: 100%;
     top: 0;
     left: auto;
     right: auto;
@@ -555,7 +563,7 @@ header {
 
 .fourthpart .container .rightone .owl-carousel.slider4 .item h2 {
     color: #303030;
-    font-size: 25px;
+    font-size: 24px;
     padding-top: 30px;
 
 }
@@ -626,6 +634,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .fifthpart .container ul .flexul {
@@ -711,7 +722,7 @@ header {
 
 .fifthpart .container .fleximage2 {
     display: flex;
-
+    flex-wrap: wrap;
 
 }
 
@@ -753,6 +764,7 @@ header {
 .fifthpart .container .fleximage span {
     color: #999;
     margin-right: 20px;
+    font-size: 14px;
 }
 
 
@@ -804,6 +816,10 @@ header {
     font-size: 18px;
     line-height: 33px;
     margin-top: 70px;
+}
+
+.fifthpart .container .fleximage span i {
+    margin-right: 6px;
 }
 
 .fifthpart .container button {
@@ -859,21 +875,48 @@ header {
     /* bottom: 500px; */
 
     border: none;
+    cursor: pointer;
 
 }
 
-.sixthpart .playbutton .video {
+.sixthpart .video {
     width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.5);
     position: fixed;
     top: 0;
     left: 0;
+    padding-top: 20px;
+
     display: none;
 
+}
+
+.sixthpart .video .cut {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sixthpart .video .cut i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.sixthpart .video iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .sixthpart .playbutton i {
     font-size: 30px;
     color: #777777;
+
 
 }
 
@@ -1157,6 +1200,7 @@ footer .middlepart .container ul .flexfooter {
     display: flex;
     justify-content: space-between;
     margin: 0 -10px;
+    flex-wrap: wrap;
 }
 
 footer .middlepart .container li {
