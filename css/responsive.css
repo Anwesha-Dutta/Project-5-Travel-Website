@@ -1,3 +1,28 @@
+@media(max-width:1199px) {
+    .fifthpart .container .rotate {
+
+        right: -110px;
+    }
+
+    .fourthpart .container .leftone .rotate {
+        right: -110px;
+    }
+
+
+
+    .fifthpart .container .rotate1 {
+        right: -110px;
+    }
+
+    footer .upperpart button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
 @media(max-width:991px) {
     .banner .owl-carousel .owl-nav .owl-next {
         right: 0;
