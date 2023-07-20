@@ -42,8 +42,13 @@ $('.slider3').owlCarousel({
     autoplay:false,
     responsive:{
         0:{
+            items:2
+        },
+        400:{
             items:3
         },
+        
+        
         600:{
             items:4
         },

@@ -20,6 +20,14 @@
         padding-left: 5px;
         padding-right: 5px;
     }
+
+    .eightpart .owl-carousel .owl-nav .owl-prev {
+        left: 0;
+    }
+
+    .eightpart .owl-carousel .owl-nav .owl-next {
+        right: 0;
+    }
 }
 
 
@@ -31,6 +39,16 @@
     .secondpart .againflex .secondpartright .flextwo .ul-one li {
 
         display: none;
+    }
+
+    header .secondpart .againflex .mobile-menu {
+        display: block;
+    }
+
+    header .secondpart .againflex .mobile-menu button {
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
     }
 
     .container .flex .left {
@@ -249,12 +267,22 @@
     }
 
     footer .middlepart li .flexgallary1 img:last-child {
-        padding-right: 0;
+        padding-right: 15px;
+        margin-right: -15px;
     }
 
-    footer .middlepart li .flexgallary2 img:last-child {
-        padding-right: 0;
+    footer .middlepart li .flexgallary1 {
+        margin-right: -15px;
     }
+
+    footer .middlepart li .flexgallary2 {
+        margin-right: -15px;
+    }
+
+    /* footer .middlepart li .flexgallary2 img:last-child {
+        margin-right: -15px;
+
+    } */
 
     footer .middlepart li .flexgallary1 {
 
@@ -338,6 +366,8 @@
 
         padding-left: 21px;
         padding-right: 21px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .fourthpart .container .rightone h1 {
@@ -971,7 +1001,7 @@
     }
 
     .seventhpart .container .rightpart .ipsum {
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
@@ -995,7 +1025,7 @@
     }
 
     .eightpart .container p {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 25px;
     }
 
@@ -1022,11 +1052,11 @@
     }
 
     footer .middlepart {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     footer .middlepart .container li {
-        padding-top: 40px;
+        padding-top: 32px;
         width: 100%;
     }
 
@@ -1163,11 +1193,11 @@
     }
 
     .seventhpart .container .pic .para h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .seventhpart .container .pic .para p {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .seventhpart .container .flexagain {
@@ -1214,6 +1244,9 @@
         font-size: 31px;
     }
 
+    .fourthpart .container .leftone .imgflex .image img {
+        height: 314px;
+    }
 
     .fourthpart .container .leftone h1 {
         font-size: 27px;

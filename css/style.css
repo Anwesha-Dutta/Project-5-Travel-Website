@@ -171,6 +171,10 @@ header {
 
 }
 
+header .secondpart .againflex .mobile-menu {
+    display: none;
+}
+
 .secondpartright .flextwo .ul-one .part .round {
     height: 45px;
     width: 45px;
@@ -199,8 +203,41 @@ header {
     display: none;
     position: absolute;
     top: 28px;
+    z-index: 2;
 }
 
+
+
+
+.secondpart .flextwo .ul-one .part:hover .inside-element {
+    position: fixed;
+    width: 100%;
+    left: 0;
+
+}
+
+.secondpart .flextwo .ul-one .part:hover .inside-element ul li a {
+    color: white;
+    display: block;
+    padding-top: 15px;
+    color: #6b6b6b;
+}
+
+.secondpart .flextwo .ul-one .part:hover .inside-element ul li a:first-child {
+    padding-bottom: 25px;
+    color: white;
+}
+
+.secondpart .flextwo .ul-one .part:hover .inside-element ul li a:last-child {
+    padding-bottom: 20px;
+}
+
+
+.secondpart .inside-element .flexelement {
+    display: flex;
+    justify-content: space-between;
+
+}
 
 
 .secondpart .flextwo .ul-one .part .insidehome ul .inside a {
@@ -421,6 +458,11 @@ header {
     padding-bottom: 50px;
 }
 
+
+.fourthpart .container .leftone .image:hover .superb {
+    width: 100%;
+}
+
 .fourthpart .container .leftone {
     width: 67%;
 
@@ -429,6 +471,10 @@ header {
 .fourthpart .container .rightone {
     width: 33%;
     padding: 0 15px;
+}
+
+.fourthpart .leftone .superb .paraflex p {
+    padding-bottom: 10px;
 }
 
 .fourthpart .container .rightone .content {
@@ -443,7 +489,7 @@ header {
 }
 
 .fourthpart .container .leftone .imgflex .image img {
-    height: 280px;
+    height: 100%;
     width: 100%;
     padding-left: 0;
     object-fit: cover;
@@ -456,7 +502,7 @@ header {
 }
 
 .fourthpart .container .leftone .imgflex .image {
-
+    height: 314px;
     position: relative;
     border: 1px solid #ebebeb;
     overflow: hidden;
