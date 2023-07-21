@@ -135,7 +135,7 @@ header {
 }
 
 .secondpart .againflex .secondpartright .flextwo .ul-one li a {
-
+    padding-right: 18px;
     text-decoration: none;
     color: black;
 }
@@ -199,38 +199,64 @@ header .secondpart .againflex .mobile-menu {
 .secondpart .flextwo .ul-one .part .insidehome {
 
     width: 200px;
-    background-color: black;
+
     display: none;
     position: absolute;
-    top: 28px;
+    top: 18px;
     z-index: 2;
+    background-color: black;
+}
+
+.secondpart .flextwo .ul-one .part .insidehome.inside-element {
+    background-color: transparent;
+    top: 108px;
+}
+
+.secondpart .flextwo .ul-one .part .insidehome .flexelement {
+    background-color: black;
+    padding: 30px;
 }
 
 
 
-
-.secondpart .flextwo .ul-one .part:hover .inside-element {
+.secondpart .flextwo .ul-one .part:hover .insidehome.inside-element {
     position: fixed;
     width: 100%;
     left: 0;
 
+
+}
+
+.secondpart .flextwo .ul-one .part .inside-element ul li a .fa-star {
+    color: #E83F53;
+    font-size: 11px;
+    position: absolute;
+    top: 23px;
+    right: 0;
+}
+
+.secondpart .flextwo .ul-one .part .inside-element ul li a span {
+    margin-left: 6px;
 }
 
 .secondpart .flextwo .ul-one .part:hover .inside-element ul li a {
-    color: white;
+
     display: block;
-    padding-top: 15px;
+    padding-top: 25px;
     color: #6b6b6b;
+    font-size: 14px;
+    position: relative;
+    width: fit-content;
 }
 
-.secondpart .flextwo .ul-one .part:hover .inside-element ul li a:first-child {
-    padding-bottom: 25px;
+.secondpart .flextwo .ul-one .part .insidehome.inside-element .inside a {
+    padding-bottom: 15px;
     color: white;
+    font-size: 15px;
 }
 
-.secondpart .flextwo .ul-one .part:hover .inside-element ul li a:last-child {
-    padding-bottom: 20px;
-}
+
+
 
 
 .secondpart .inside-element .flexelement {
