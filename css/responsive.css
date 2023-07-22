@@ -308,6 +308,10 @@
 
 @media(max-width:767px) {
 
+    header .secondpart .againflex .mobile-menu {
+        display: none;
+    }
+
     .secondpart .secondpartright {
         display: none;
     }
@@ -801,7 +805,13 @@
     }
 
     .container .flex .right .liflex li:last-child {
+
         padding-left: 0px;
+    }
+
+
+    header .secondpart .againflex .mobile-menu {
+        display: none;
     }
 
     .banner .img img {
